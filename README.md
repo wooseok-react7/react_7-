@@ -1,8 +1,5 @@
-# React + Vite
+# 2024 PARIS Medal Country
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2024년 파리 올림픽 매달 획득 수를 표현한다.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+각 국의 금,은,동 매달을 얼마나 수상 했는지 추가 및 수정,삭제가 가능하다.
