@@ -6,6 +6,6 @@
 
 1. Component를 사용하여 입력값을 따로 관리하여 재사용성을 높임
 
-- <SocialsContainer /> // 소셜미디어 버튼을 따로 관리함
-- <InputFiled/> Input 메달 입력값을 따로 관리함
-- <CountryItem> Input 메달 출력값을 따로 관리함
+- SocialsContainer 소셜미디어 버튼을 따로 관리함
+- InputFiled Input 메달 입력값을 따로 관리함
+- CountryItem Input 메달 출력값을 따로 관리함
