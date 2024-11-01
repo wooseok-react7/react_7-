@@ -1,0 +1,49 @@
+form {
+  display: flex; /* 가로 정렬 */
+  flex-direction: row; /* 가로 방향 */
+  align-items: center; /* 세로 가운데 정렬 */
+  gap: 10px; /* 각 요소 간의 간격 */
+  justify-content: center; /* 가로 가운데 정렬 */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  margin-left: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column; /* 세로로 배치 */
+  align-items: center; /* 왼쪽 정렬 */
+  margin-bottom: 1em; /* 각 필드 간 간격 */
+}
+
+.input-field {
+  position: relative;
+  padding: 0.75em 1em;
+  border-radius: 0.3em;
+  border: 1px solid var(--c-border, currentColor);
+  color: var(--c-text);
+  font-size: 1.1rem;
+  width: auto; /* 자동 너비 */
+  max-width: 150px; /* 최대 너비를 설정 */
+  text-align: right;
+}
+
+.input-label {
+  margin-bottom: 0.3em; /* 라벨과 인풋 간 간격 */
+  font-size: 3rem;
+  color: var(--c-text);
+  text-align: center; /* 라벨 텍스트 가운데 정렬 */
+  display: block; /* 라벨을 블록 요소로 설정 */
+}
+
+/* 라벨을 인풋 필드 위에 표시하는 스타일 */
+.input-field::before {
+  content: attr(name); /* name 속성의 값을 표시 */
+  position: absolute;
+  top: -1.5em; /* 인풋 필드 위로 이동 */
+  left: 0;
+  font-size: 1rem;
+  color: var(--c-text);
+}
